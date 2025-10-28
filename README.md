@@ -34,9 +34,12 @@ A responsive book search web app built with **React** and **Tailwind CSS**, usin
 1. https://openlibrary.org/search.json?title={query}
    for example https://openlibrary.org/search.json?title=rich dad poor dad
    
-2. How to file Book Cover Image
+2. How to find Book Cover Image
+   ---
    The Open Library provides a special endpoint for cover images.
+   ---
    https://covers.openlibrary.org/b/id/{cover_i}-{size}.jpg     ----> size: S:small, M:medium, L-large
+   ---
    We have cover_i in our response so we can find book cover image.
 
 
@@ -52,8 +55,8 @@ A responsive book search web app built with **React** and **Tailwind CSS**, usin
 
 
  ## Screenshots
-![image alt](https://github.com/Sanauar-Ansari/Task-Manager/blob/32e946ea0d3bbdb3a51045cb13575076a56ed473/Screenshot%202025-10-13%20130437.png)
-![image alt](https://github.com/Sanauar-Ansari/Task-Manager/blob/32e946ea0d3bbdb3a51045cb13575076a56ed473/Screenshot%202025-10-13%20130513.png)
+![image alt](https://github.com/Sanauar-Ansari/Book_Library/blob/0ccab941d63679013c1319a905833b4409ed93b0/Screenshot%202025-10-28%20201711.png)
+![image alt](https://github.com/Sanauar-Ansari/Book_Library/blob/0ccab941d63679013c1319a905833b4409ed93b0/Screenshot%202025-10-28%20201805.png)
     
 
 
