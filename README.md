@@ -24,10 +24,12 @@ A responsive book search web app built with **React** and **Tailwind CSS**, usin
 ## Installation & Setup
 
 1. Clone the repo
--git clone https://github.com/your-username/your-repo-name.git
+-git clone https://github.com/Sanauar-Ansari/Book_Library.git
+
+
 -cd your-repo-name
 
-2. Install dependencies by "npm install" and start the dev server by "npm run dev" 
+3. Install dependencies by "npm install" and start the dev server by "npm run dev" 
 
 
 ## API Reference
@@ -35,11 +37,14 @@ A responsive book search web app built with **React** and **Tailwind CSS**, usin
    for example https://openlibrary.org/search.json?title=rich dad poor dad
    
 2. How to find Book Cover Image
-   ---
+
+   
    The Open Library provides a special endpoint for cover images.
-   ---
+
+   
    https://covers.openlibrary.org/b/id/{cover_i}-{size}.jpg     ----> size: S:small, M:medium, L-large
-   ---
+
+   
    We have cover_i in our response so we can find book cover image.
 
 
