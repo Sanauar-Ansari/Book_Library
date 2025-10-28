@@ -2,5 +2,5 @@
 
 # Books Library
 
-A responsive book search web app built with React (Vite) and Tailwind CSS, using the Open Library API to help users find books instantly as they type — powered by a smooth debounced search experience.
+A responsive book search web app built with **React** and **Tailwind CSS**, using the **Open Library API** to help users find books instantly as they type — **powered by a smooth debounced search experience**.
 
