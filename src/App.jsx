@@ -1,8 +1,3 @@
-// 
-
-
-
-
 import React, { useState, useEffect } from "react";
 import BookList from "./components/BookList";
 
@@ -13,6 +8,7 @@ const App = () => {
 
   // Fetch books function
   const fetchBooks = async (searchQuery) => {
+    // if user cleared the input or entered blank spaces then it become TRUE and books will be set to empty array.
     if (!searchQuery.trim()) {
       setBooks([]);
       return;
@@ -23,6 +19,7 @@ const App = () => {
         `https://openlibrary.org/search.json?title=${searchQuery}`
       );
       const data = await response.json();
+      // console.log(data)
       setBooks(data.docs || []);
     } catch (error) {
       console.error("Error fetching books:", error);
@@ -31,7 +28,7 @@ const App = () => {
     }
   };
 
-  // 🕐 Debouncing logic — wait before making API call
+  //  Debouncing logic — wait before making API call
   useEffect(() => {
     const handler = setTimeout(() => {
       fetchBooks(query);
@@ -45,10 +42,10 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gray-100 p-6">
       <h1 className="text-3xl font-bold text-center text-blue-600 mb-6">
-        📚 Find Your Book Here 📚
+        📚 Find Your Book Here 
       </h1>
 
-      {/* Input field only — no button */}
+      {/* Input field */}
       <div className="flex justify-center mb-8">
         <input
           type="text"
